@@ -1,0 +1,64 @@
+body {
+    background-color: #f5f4f4;
+}
+
+.logo-container {
+    text-align: center;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.social-media-buttons {
+    height: 5vh;
+}
+
+.logo-container {
+    height: 5vh;
+}
+
+.logo {
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    height: 70vh;
+    align-items: center;
+}
+
+.call-waiter-button {
+    border-radius: 11px;
+    flex: 1;
+    align-items: center;
+    background-color: greenyellow;
+    padding: 10px;
+    height: 30%;
+    margin-right: 10px;
+    filter: drop-shadow(1px 1px 4px green);
+    display: flex;
+}
+
+.show-menu-button {
+    display: flex;
+    align-items: center;
+    background-color: yellow;
+    flex: 1;
+    padding: 10px;
+    height: 30%;
+    margin-left: 10px;
+    border-radius: 11px;
+    filter: drop-shadow(1px 1px 4px darkgoldenrod);
+}
+
+.button-text {
+    font-size: 30px;
+    color: black;
+    font-weight: 700;
+    text-align: center;
+}
